@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Image Collage</title>
+  <style>
+    .photo-box {
+  border: 3px solid #00ffcc; /* Neon border */
+  border-radius: 10px;
+  padding: 5px;
+  background-color: #1a1a1a;
+  box-shadow: 0 0 12px rgba(0, 255, 204, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.photo-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 24px rgba(0, 255, 204, 0.5);
+}
+    body {
+  margin: 0;
+  padding: 20px;
+  background: #121212;
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  color: #00ffcc;
+  text-shadow: 1px 1px 4px rgba(0, 255, 204, 0.5);
+}
+
+.collage {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 15px;
+  padding: 0 10px;
+}
+
+.collage img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  cursor: pointer;
+  filter: brightness(0.9) contrast(1.1);
+}
+
+.collage img:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 20px #00ffcc;
+  z-index: 2;
+  filter: brightness(1) saturate(1.2);
+} 
+    body {
+      margin: 0;
+      padding: 20px;
+      background: #141010;
+      font-family: sans-serif;
+    }
+    .collage {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      grid-gap: 10px;
+    }
+    .collage img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <h2> Cam Image</h2>
+  <div class="collage">
+     <img src="images/1.jpg" alt="My Image">
+    <img src="images/22.jpg" alt="Image 2">
+    <img src="images/2.jpg" alt="Image 2">
+    <img src="images/3.jpg" alt="My Image">
+    <img src="images/8.jpg" alt="Image 2">
+    <img src="images/9.jpg" alt="Image 2">
+    <img src="images/12.jpg" alt="My Image">
+    <img src="images/13.jpg" alt="Image 2">
+    <img src="images/16.jpg" alt="My Image">
+    <img src="images/17.jpg" alt="Image 2">
+    <img src="images/19.jpg" alt="Image 2">
+    <img src="images/21.jpg" alt="My Image">
+    <img src="images/23.jpg" alt="Image 2">
+    <img src="images/24.jpg" alt="Image 2">
+    <img src="images/25.jpg" alt="My Image">
+    <img src="images/26.jpg" alt="Image 2">
+    <img src="images/28.jpg" alt="My Image">
+    <img src="images/29.jpg" alt="Image 2">
+    <img src="images/30.jpg" alt="Image 2">
+    <img src="images/31.jpg" alt="My Image">
+    <img src="images/32.jpg" alt="Image 2">
+    <img src="images/35.jpg" alt="My Image">
+    <img src="images/36.jpg" alt="Image 2">
+    <img src="images/37.jpg" alt="My Image">
+    <img src="images/38.jpg" alt="Image 2">
+    <img src="images/28.jpg" alt="Image 2"><br>
+    <img src="images/4.jpg" alt="Image 2">
+    <img src="images/5.jpg" alt="My Image">
+    <img src="images/6.jpg" alt="Image 2">
+    <img src="images/10.jpg" alt="Image 2">
+    <img src="images/11.jpg" alt="My Image">
+    <img src="images/14.jpg" alt="Image 2">
+    <img src="images/15.jpg" alt="My Image">
+    <img src="images/20.jpg" alt="Image 2">
+    <img src="images/27.jpg" alt="My Image">
+    <img src="images/34.jpg" alt="Image 2">
+    <img src="images/39.jpg" alt="Image 2"><br></div>
+    <p>  &#8377; 600 pedda bokka pettadu vadini kutha pagala kotalisindhi ga karthik ni koruthunam  </p>
+    
+    
+    
+    
+    
+   
+  </div>
+</body>
+</html>
